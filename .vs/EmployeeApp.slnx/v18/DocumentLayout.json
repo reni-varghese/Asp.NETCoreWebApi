@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\sprint3\\EmployeeApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|c:\\sprint3\\employeeapp\\employeeapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|solutionrelative:employeeapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|c:\\sprint3\\employeeapp\\employeeapp.api\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|solutionrelative:employeeapp.api\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|c:\\sprint3\\employeeapp\\employeeapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|solutionrelative:employeeapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|c:\\sprint3\\employeeapp\\employeeapp.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|solutionrelative:employeeapp.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|c:\\sprint3\\employeeapp\\employeeapp.api\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|solutionrelative:employeeapp.api\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|c:\\sprint3\\employeeapp\\employeeapp.api\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|solutionrelative:employeeapp.api\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|c:\\sprint3\\employeeapp\\employeeapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|solutionrelative:employeeapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FE86887-5370-BEE6-70F2-476C725D7719}|EmployeeApp.Api\\EmployeeApp.Api.csproj|c:\\sprint3\\employeeapp\\employeeapp.api\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +74,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Models\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "EmployeeApp.Api\\Models\\AuthResponse.cs",
+              "ToolTip": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Models\\AuthResponse.cs",
+              "RelativeToolTip": "EmployeeApp.Api\\Models\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T08:49:03.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EmployeeApp.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EmployeeApp.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T08:40:51.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeeApp.Api\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EmployeeApp.Api\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T05:57:26.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeApp.Api\\Program.cs",
+              "ToolTip": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Program.cs",
+              "RelativeToolTip": "EmployeeApp.Api\\Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T06:07:30.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "EmployeeApp.Api\\Controllers\\EmployeeController.cs",
@@ -74,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Mappings\\MappingProfile.cs",
               "RelativeDocumentMoniker": "EmployeeApp.Api\\Mappings\\MappingProfile.cs",
@@ -86,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "EmployeeDto.cs",
               "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Models\\Dtos\\EmployeeDto.cs",
               "RelativeDocumentMoniker": "EmployeeApp.Api\\Models\\Dtos\\EmployeeDto.cs",
@@ -98,32 +162,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Program.cs",
-              "RelativeDocumentMoniker": "EmployeeApp.Api\\Program.cs",
-              "ToolTip": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Program.cs",
-              "RelativeToolTip": "EmployeeApp.Api\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T06:07:30.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Services\\EmployeeService.cs",
               "RelativeDocumentMoniker": "EmployeeApp.Api\\Services\\EmployeeService.cs",
               "ToolTip": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Services\\EmployeeService.cs",
               "RelativeToolTip": "EmployeeApp.Api\\Services\\EmployeeService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAA5wDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T06:07:10.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IEmployeeService.cs",
               "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Services\\IEmployeeService.cs",
               "RelativeDocumentMoniker": "EmployeeApp.Api\\Services\\IEmployeeService.cs",
@@ -135,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "EmployeeApp.Api\\Repositories\\Repository.cs",
@@ -147,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Repositories\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "EmployeeApp.Api\\Repositories\\EmployeeRepository.cs",
@@ -159,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "EmployeeApp.Api\\Models\\Employee.cs",
@@ -171,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Repositories\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "EmployeeApp.Api\\Repositories\\IEmployeeRepository.cs",
@@ -183,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\sprint3\\EmployeeApp\\EmployeeApp.Api\\Repositories\\IRepository.cs",
               "RelativeDocumentMoniker": "EmployeeApp.Api\\Repositories\\IRepository.cs",
