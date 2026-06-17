@@ -1,5 +1,8 @@
-﻿using EmployeeApp.Api.Models.Dtos;
+﻿using EmployeeApp.Api.Exceptions;
+using EmployeeApp.Api.Models.Dtos;
 using EmployeeApp.Api.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,12 +13,15 @@ namespace EmployeeApp.Api.Controllers
     public class EmployeeController(IEmployeeService service) : ControllerBase
     {
         [HttpGet]
+        [AllowAnonymous]
         public async Task<IActionResult> GetAll()
         {
-            var result=await service.GetAllAsync();
-            return Ok(result);
+            var result = await service.GetAllAsync();
+            throw new ArgumentNullException("Something went wrong. Please try after sometime");
+            //return Ok(result);
         }
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetById([FromRoute] int id)
         {
             var result = await service.GetByIdAsync(id);
@@ -24,6 +30,7 @@ namespace EmployeeApp.Api.Controllers
 
         }
         [HttpPost]
+        [Authorize(AuthenticationSchemes =JwtBearerDefaults.AuthenticationScheme,Roles ="Admin")]
         public async Task<IActionResult> Create([FromBody] EmployeeDto entity)
         {
             if (!ModelState.IsValid)
@@ -36,6 +43,7 @@ namespace EmployeeApp.Api.Controllers
             return CreatedAtAction("GetById", new { id = result.Id }, result);
 
         }
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin,User")]
         [HttpPut("{id:int}")]
         public async Task<IActionResult> Update(int id, [FromBody] EmployeeDto entity)
         {
@@ -48,6 +56,7 @@ namespace EmployeeApp.Api.Controllers
             if (result is null) return NotFound();
             return Ok(result);
         }
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

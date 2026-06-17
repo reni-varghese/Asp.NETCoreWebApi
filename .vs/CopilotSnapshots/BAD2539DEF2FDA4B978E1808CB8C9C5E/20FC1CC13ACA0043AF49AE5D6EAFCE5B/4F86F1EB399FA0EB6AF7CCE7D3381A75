@@ -41,16 +41,8 @@ namespace EmployeeApp.Api.Controllers
             };
 
             return Ok(response);
-        }
 
-        [HttpDelete("users/{userId}")]
-        public async Task<IActionResult> DeleteUser(string userId)
-        {
-            var (success, message) = await service.DeleteUser(userId);
-            if (!success)
-                return NotFound(new { message });
 
-            return Ok(new { message });
         }
     }
 

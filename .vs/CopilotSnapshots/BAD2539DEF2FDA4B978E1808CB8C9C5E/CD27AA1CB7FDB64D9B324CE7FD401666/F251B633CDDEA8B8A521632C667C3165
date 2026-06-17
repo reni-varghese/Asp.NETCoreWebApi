@@ -6,6 +6,7 @@ namespace EmployeeApp.Api.Services
     {
         Task<(bool Success, string Message, string UserId)> Register(RegisterDto request);
         Task<(bool Success,string Message,string token,int ExpiresIn)> Login(LoginDto request);
-        Task<(bool Success, string Message)> DeleteUser(string userId);
-    }
+       
+            
+     }
 }
